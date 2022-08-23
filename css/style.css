@@ -1,0 +1,12 @@
+/* helpers */
+@import "./normalize.css";
+
+/* globals */
+@import "./global.css";
+
+/* sections */
+@import "./header.css";
+@import "./hero.css";
+@import "./articles.css";
+@import "./testimonials.css";
+@import "footer.css";
