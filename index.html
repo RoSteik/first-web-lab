@@ -17,30 +17,33 @@
         <div class="container">
             <header class="header">
                 <nav class="header-nav">
-                    <ul>
-                        <li class="header-nav-item">
-                            <a class="header-nav-link" href="">Home</a>
-                        </li>
-                        <li class="header-nav-item">
-                            <a class="header-nav-link-find" href="">Find a doctor</a>
-                        </li>
-                        <li class="header-nav-item">
-                            <a class="header-nav-link" href="">Apps</a>
-                        </li>
-                        <li class="header-nav-item">
-                            <a class="header-nav-link" href="">Testimonials</a>
-                        </li>
-                        <li class="header-nav-item">
-                            <a class="header-nav-link" href="">About us</a>
-                        </li>
-                    </ul>
+                    <a href="#">Home</a>
+                    <a href="#">Find a doctor</a>
+                    <a href="#">Apps</a>
+                    <a href="#">Testimonials</a>
+                    <a href="#">About us</a>
                 </nav>
                 <img class="logo" src="images/logo.svg" alt="header-image">
+                <input type="checkbox" id="burger-checker">
+                <label class="burger-menu" for="burger-checker">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+                <div class="burger-nav">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Find a doctor</a>
+                        <a href="#">Apps</a>
+                        <a href="#">Testimonials</a>
+                        <a href="#">About us</a>
+                    </nav>
+                </div>
             </header>
             <div class="container hero-container">
                 <div class="hero-inner">
                     <h1 class="hero-heading">Download our mobile apps</h1>
-                    <img src="images/black-line.svg" alt="rectangle">
+                    <img class="black-line-img" src="images/black-line.svg" alt="rectangle">
                     <p class="hero-paragraph">Our dedicated patient engagement app and web portal allow you to access
                         information instantaneously
                         (no tedious form, long calls, or administrative hassle)
@@ -71,14 +74,12 @@
                     <p class="article-description">In this case, the role of the health laboratory is very important to do a disease detection...</p>
                     <a href="#" class="read-more">Read more</a>
                 </div>
-
                 <div class="article">
                     <img src="images/articles/chel.svg" alt="image-2">
                     <h2 class="article-title">Herbal medicines that are safe for consumption</h2>
                     <p class="article-description">Herbal medicine is very widely used at this time because of its very good for your health...</p>
                     <a href="#" class="read-more">Read more</a>
                 </div>
-
                 <div class="article">
                     <img src="images/articles/mem.svg" alt="image-3">
                     <h2 class="article-title">Natural care for healthy facial skin</h2>
@@ -88,7 +89,6 @@
             </div>
             <button class="view-more-button">View more</button>
         </div>
-
         <img class="testimonials" src="images/testimonials.svg" alt="testimonials">
     </section>
 
