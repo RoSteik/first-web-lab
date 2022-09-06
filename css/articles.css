@@ -90,7 +90,6 @@
 }
 
 .view-more-button {
-    margin-top: 190px;
     width: 189px;
     height: 56px;
     font-weight: 500;
@@ -99,13 +98,6 @@
     background-color: white;
     border-color: deepskyblue;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 190px auto 190px;
 }
 
-.testimonials {
-    margin-top: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
