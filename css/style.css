@@ -1,0 +1,33 @@
+/* helpers */
+@import "./normalize.css";
+
+/* globals */
+@import "./global.css";
+
+/* sections */
+@import "./header.css";
+@import "./hero.css";
+@import "./articles.css";
+@import "footer.css";
+@import "screen-queries.css";
+@import "animations.css";
+
+html.light {
+    --color-background-primary: #ffffff;
+    --color-background-secondary: #F8F8F8;
+    --color-text-primary: #000000;
+    --color-text-secondary: #7D7987;
+    --color-text-header: #B8BECD;
+    --color-text-footer: #848484;
+    --svg-invertion: invert(0);
+}
+
+html.dark {
+    --color-background-primary: #000000;
+    --color-background-secondary: #111111;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #a4a2a9;
+    --color-text-header: #B8BECD;
+    --color-text-footer: #a6a6a6;
+    --svg-invertion: invert(0.7);
+}

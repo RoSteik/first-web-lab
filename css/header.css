@@ -1,0 +1,95 @@
+header {
+    height: 15vh;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: #FFFFFF;
+}
+
+header img {
+    width: 15%;
+    cursor: pointer;
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+}
+
+header nav a {
+    margin-right: 50px;
+    color: #1F1534;
+    opacity: 0.5;
+    transition: 0.3s;
+    font-family: 'Mulish-Bold', sans-serif, serif;
+    font-size: 1vw;
+}
+
+header nav a:hover {
+    opacity: 1;
+}
+
+.burger-menu {
+    width: 10vw;
+    height: 10vw;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+#burger-checker {
+    display: none;
+}
+
+.burger-menu div {
+    width: 100%;
+    height: 1vh;
+    background-color: #458FF6;
+    border-radius: 1vw;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.burger-menu div:nth-of-type(2) {
+    top: 40%;
+}
+
+.burger-menu div:nth-of-type(3) {
+    top: 80%;
+}
+
+.burger-nav {
+    width: 160vw;
+    height: 0;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 15vh;
+    left: 0;
+    z-index: 3;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.burger-nav nav {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.burger-nav nav a  {
+    color: #458FF6;
+    font-size: 7vw;
+    font-family: 'Mulish-Bold', sans-serif, serif;
+}
+

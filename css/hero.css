@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    min-height: 1103px;
+    overflow: hidden;
+}
+
+.hero-container {
+    padding-top: 250px;
+    position: relative;
+}
+
+.hero-inner {
+    max-width: 540px;
+}
+
+.hero-dotted-rectangle {
+    position: absolute;
+    left: 98.3%;
+    top: 106.33%;
+}
+
+.hero-image {
+    position: absolute;
+    left: 36.3%;
+    top: 40.33%;
+}
+
+.hero-image-vector {
+    padding-left: 15px;
+}
+
+.hero-illustration > img {
+    max-width: 120%;
+}
+
+.hero-heading {
+    animation-name: overflowing-colours;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 310px;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: 1px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.hero-paragraph {
+    width: 380px;
+    font-size: 1.125rem;
+    margin-bottom: 16px;
+    line-height: 1.875rem;
+    color: #aabdc5;
+}
+
+.hero-download-button {
+    margin-top: 30px;
+    width: 189px;
+    height: 56px;
+    font-weight: 500;
+    color: deepskyblue;
+    border-radius: 50px;
+    background-color: white;
+    border-color: deepskyblue;
+}
+
+.hero-download-button::after {
+    animation: pulse 2000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+}
+
+.hero-download-button::after {
+    content: '';
+    position: absolute;
+    margin-top: -18px;
+    margin-left: -145px;
+    width: 189px;
+    height: 56px;
+    background: deepskyblue;
+    border-radius: 50px;
+    z-index: -1;
+}
+
+.hero-button.outlined {
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    margin-left: 30px;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: deepskyblue;
+    color: white;
+}
+
+
